@@ -312,7 +312,7 @@ const GreenFooter = () => {
           Privacy Policy
         </Link>
         <Link href="/Cookie" className={linkStyle}>
-          Cookie's{" "}
+          Cookies{" "}
         </Link>
         <Link href="/Contact" className={linkStyle}>
           Contact Us

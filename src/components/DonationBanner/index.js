@@ -8,15 +8,15 @@ export default function DonationBanner() {
       <Image
         src={"/donation.png"}
         className="z-0 !relative"
-        layout="fill"
-        objectFit="contain"
+        layout={"fill"}
+        objectFit={"contain"}
       />
       <div
         className={`w-full hidden lg:flex flex-col  items-center absolute top-0 py-2 justify-between  `}
       >
-        <h4> Share With us in "Sabah Elkheir" Campaign </h4>
+        <h4> Share With us in Sabah Elkheir Campaign </h4>
         <span className="text-black text-sm pt-3.5  py-1">
-          Donate Daily and change more people's life
+          Donate Daily and change more people life
         </span>
         <div className=" flex justify-center items-center h-2 gap-1">
           <input
