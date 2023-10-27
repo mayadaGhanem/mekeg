@@ -32,8 +32,8 @@ export default function Projects() {
                 <div className="bg-[#DE1DBF] w-[40px] h-[40px] rounded-md flex justify-center items-center">
                   <Hand />
                 </div>
-                <span>Social Solidarity</span>
-                <span>12,515,467</span>
+                <span className="text-white ">Social Solidarity</span>
+                <span className="text-white ">12,515,467</span>
               </div>
             </div>
 
@@ -46,8 +46,8 @@ export default function Projects() {
                 <div className="bg-[#1DD3DE] w-[40px] h-[40px] rounded-md flex justify-center items-center">
                   <Education />
                 </div>
-                <span>Social Education</span>
-                <span>12,515,467</span>
+                <span className="text-white ">Social Education</span>
+                <span className="text-white ">12,515,467</span>
               </div>
             </div>
             <img
