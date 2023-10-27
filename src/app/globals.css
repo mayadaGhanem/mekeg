@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+  }
+  h1 {
+    
+    @apply text-[3.25rem] font-semibold text-primary;
+  }
+  h2{
+    
+    @apply text-[2.5rem] font-medium text-white;
+  }
+  h3{
+    
+    @apply text-[2rem] font-semibold text-black;
+  }
+  h4{
+    @apply   text-2xl font-semibold text-primary;
+
+  }
+
+  h5 {
+    @apply   text-xl font-semibold text-black;
+
+  }
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -25,3 +52,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+ 
+ .linear-bg{
+  background:linear-gradient(90deg, #FFFFFF 21.96%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0.21118) 100%);
+ }
